@@ -1,0 +1,54 @@
+# Logs
+*.log
+logs/
+docker/logs/
+*.log.*
+
+# Nginx
+*.pid
+*.sock
+
+# Docker
+.env
+docker-compose.override.yml
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+test-results/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+
+# Dependencies (if any)
+node_modules/
+vendor/
+
+# OS files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# IDE files
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
+*~
